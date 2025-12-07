@@ -75,25 +75,6 @@ python ensemble_eval_efficientnet_resnet.py
 5. Launch Gradio Interface
 python test_interface.py
 
-# Project Structure
-project/
-│
-├── src/
-│   ├── models/            # baseline, resnet, efficientnet wrappers
-│   ├── data.py            # dataset loaders & transforms
-│   ├── config.py          # global config settings
-│   ├── utils.py           # seed, plotting, helpers
-│
-├── train.py               # baseline/resnet training
-├── train_efficinetnet.py  # efficientnet two-phase training
-├── ensemble_eval_*.py     # evaluation scripts
-├── split_data.py          # dataset splitting
-├── test_interface.py      # Gradio UI
-│
-├── data/                  # raw + split dataset
-├── results/               # checkpoints, confusion matrices, reports
-│
-└── README.md
 
 
 
