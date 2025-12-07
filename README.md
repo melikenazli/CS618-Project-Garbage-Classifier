@@ -62,15 +62,11 @@ Ensembling improves stability and robustness.
 - python split_data.py
 3. Train a model
 - Specify model in config.py
-- For Baseline and ResNet-50:
--- python train.py
-- For EfficientNetB0:
--- python train_efficientnet.py
+- For Baseline and ResNet-50: python train.py
+- For EfficientNetB0: python train_efficientnet.py
 4. Run ensemble evaluation
-- EfficientNet + Baseline:
--- python ensemble_eval_efficientnet_baseline.py
-- EfficientNet + ResNet:
--- python ensemble_eval_efficientnet_resnet.py
+- EfficientNet + Baseline: python ensemble_eval_efficientnet_baseline.py
+- EfficientNet + ResNet: python ensemble_eval_efficientnet_resnet.py
 5. Launch Gradio Interface
 - python test_interface.py
 
