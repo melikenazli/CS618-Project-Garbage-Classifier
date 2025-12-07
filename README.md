@@ -20,8 +20,8 @@ A Gradio-based UI is included for real-time predictions.
 ## Dataset
 Two datasets were used and combined into a single 6-class dataset:
 
-1. **CCHANG (Kaggle)**: Garbage Classification Dataset  
-2. **Suman Kunwar (Kaggle)**: Garbage Classification V2  
+1. **CCHANG (Kaggle)**: Garbage Classification Dataset (https://www.kaggle.com/datasets/asdasdasasdas/garbage-classification/data)
+2. **Suman Kunwar (Kaggle)**: Garbage Classification V2 (https://www.kaggle.com/datasets/sumn2u/garbage-classification-v2) 
 
 Place raw data into:
 - data/raw/
