@@ -19,4 +19,5 @@ Project Execution Guide
 - Performs equal-weight ensemble evaluation of EfficientNet-B0 and ResNet-50 using averaged logits.
 
 6. test_interface.py (Gradio UI)
-- Launches an interactive Gradio interface where users can upload/crop images and receive model predictions in real time.
+
+- Launches an interactive Gradio interface where users can upload/crop images and receive model predictions in real time. User can upload images from their PC or use webcam.
